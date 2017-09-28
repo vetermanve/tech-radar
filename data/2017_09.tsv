@@ -1,0 +1,98 @@
+AWS S3	Data Mgt	file object store	1	ADOPT		
+Azure Blobs	Data Mgt	file object store	1,5	ADOPT		
+AWS SNS	Data Mgt	messaging service TBD	1,8	ADOPT		
+AWS SQS	Data Mgt	message queues TBD	1,8	ADOPT		
+Algolia	Data Mgt	NoSql Search DB - w/o facets	1,5	ADOPT		
+ElasticSearch	Data Mgt	NoSql Search DB	-1	ASSESS		
+Azure EventHub	Data Mgt	For queues - bad, for dat ingestion - good.	-1,5	HOLD		
+Spark	Data Mgt	event processing	-1	ASSESS		TRUE
+Aerospike	Data Mgt	NoSql DB/caching	-1,5	HOLD		TRUE
+Hadoop/HBase	Data Mgt	NoSql DB	-1,2	HOLD		TRUE
+MongoDB	Data Mgt	NoSql DB	-1,8	HOLD		TRUE
+MySQL	Data Mgt	RDBMS	-1,5	HOLD		TRUE
+Neo4j	Data Mgt	Graph DB	-1	ASSESS		TRUE
+MS SQL (on prem)	Data Mgt	RDBMS	-1,5	HOLD		TRUE
+Azure Service Bus	Data Mgt	FIFO queues	0,25	TRIAL		
+Azure SQL	Data Mgt	Azure RDBMS	1,8	ADOPT		
+Azure CosmosDB	Data Mgt	Azure NoSQL	-1	ASSESS		
+Azure Stream Analytics	Data Mgt	Stream analytics service - can't provide enough throughput	-2	HOLD		
+Azure Tables	Data Mgt	Azure Key-Value storage	-1	ASSESS		
+AWS Aurora	Data Mgt	AWS Mysql RDBMS - highly elastic	-1	ASSESS		
+AWS DynamoDB	Data Mgt	NoSql DB - throttling issues	-1,8	HOLD		
+Flink	Data Mgt	event processing	0,1	TRIAL		TRUE
+Hadoop/HDFS	Data Mgt	distributed storage	0,3	TRIAL		TRUE
+Go	Languages	impl. language		TBD		TRUE
+Javascript	Languages	impl. language	2	ADOPT		
+Python	Languages	impl. language	-1	ASSESS		TRUE
+Swift	Languages	impl. language	1,8	ADOPT		TRUE
+R	Languages	impl. language	-1	ASSESS		TRUE
+.NET 4.x/ languages	Languages	.NET software appl platform including .NET based programming languages like C#	2	ADOPT		
+Julia	Languages		-1,3	HOLD		TRUE
+.NET Core/ languages	Languages	.NET Core framework on C#	0,2	TRIAL		
+Typescript	Languages	impl. Language - complex for our case	-1,5	HOLD		
+Docker	Platforms & Infrastructure	Container/Deployment	0	ASSESS		
+HAProxy	Platforms & Infrastructure	loadbalancer		TBD		TRUE
+log4j2	Platforms & Infrastructure	Logging-Framework	1,9	ADOPT		TRUE
+Nginx	Platforms & Infrastructure	webserver / loadbalancer TBD	1,5	HOLD		
+slf4j	Platforms & Infrastructure	Logging-Facade, multiple implementations (Log4J,Logback)	2	ADOPT		TRUE
+AWS Lambda	Platforms & Infrastructure	computing service - serverless	-0,8	ASSESS		
+Consul	Platforms & Infrastructure	distributed computing	-0,5	ASSESS		TRUE
+log4j	Platforms & Infrastructure	Logging-Framework	-1,2	HOLD		TRUE
+saltstack	Platforms & Infrastructure	infrastructure management	-1,7	HOLD		TRUE
+Takipi	Platforms & Infrastructure	exception monitoring	-1,5	HOLD		TRUE
+Kubernetes	Platforms & Infrastructure	cluster resource manager	-1	ASSESS		
+Rancher	Platforms & Infrastructure	cluster resource manager	-1	ASSESS		
+Akka (.Net)	Techniques; Frameworks & Tools		-1	ASSESS		
+Gradle	Techniques; Frameworks & Tools	Build Tool	1,8	ADOPT		TRUE
+Guava	Techniques; Frameworks & Tools	standard lib	2	ADOPT		TRUE
+jQuery	Techniques; Frameworks & Tools	JS framework	1,8	ADOPT		TRUE
+Maven	Techniques; Frameworks & Tools	Build Tool	2	ADOPT		TRUE
+Node.js	Techniques; Frameworks & Tools	server-side JS	1,8	ASSESS		
+OpenAPI (Swagger)	Techniques; Frameworks & Tools	rest api frw	0	ASSESS		
+ReactJS	Techniques; Frameworks & Tools	JS framework for SPA	1,8	ADOPT		
+Sbt	Techniques; Frameworks & Tools	Build Tool	1,8	ADOPT		TRUE
+Redux	Techniques; Frameworks & Tools	JS methodology for usage with React	1,8	ADOPT		
+Spray	Techniques; Frameworks & Tools		-0,7	ASSESS		TRUE
+BackboneJS	Techniques; Frameworks & Tools	JS framework	-1,4	HOLD		
+AWS RedShift	Data Mgt	Scalable data warehouse solution	1,5	ADOPT		
+Azure SQL Data Warehouse	Data Mgt	Scalable data warehouse solution	-1	ASSESS		
+Azure functions	Platforms & Infrastructure	computing service - serverless	-0,8	ASSESS		
+NewRelic	Platforms & Infrastructure	APM, monitoring, etc	2	ADOPT		
+Prometheus	Platforms & Infrastructure	Monitoring, alerting	-1	ASSESS		
+Graphana	Platforms & Infrastructure	Graphics, dashboards for Monitoring	-1	ASSESS		
+Pingdom	Platforms & Infrastructure	Web service availability check	2	ADOPT		
+Soasta	Platforms & Infrastructure	cloud testing tool - costly, rarely used	-2	HOLD		
+PagerDuty	Platforms & Infrastructure	Tiered escalation alerting tool	1,5	ADOPT		
+Twilio	Platforms & Infrastructure	SMS, calls cloud service TBD - where it's used)	0,5	ADOPT		
+Azure cloud VMs	Platforms & Infrastructure	computing service	1,5	ADOPT		
+AWS EC2	Platforms & Infrastructure	computing service	2	ADOPT		
+Google cloud VMs	Platforms & Infrastructure	computing service	-1	ASSESS		
+AWS ELB	Platforms & Infrastructure	Load balancer 4 level	-1	ASSESS		
+AWS ALB	Platforms & Infrastructure	Load balancer APP layer	0	TRIAL		
+Azure ML	Platforms & Infrastructure	Machine learning cloud platform	0,5	TRIAL		
+Azure Automation	Platforms & Infrastructure		-0,5	ASSESS		
+Apache Drill	Data Mgt		-0,5	ASSESS		
+Git						
+Teamcity						
+Bitbucket						
+Octopus Deploy						
+PWA (progressive web apps)						
+.Net core	Platforms					
+HSTS						
+HTTP/2						
+ReactiveX						
+Avro						
+Enzyme for React						
+Flow for React						
+ECMAScript 2017						
+Webpack						
+PostCSS or CSS Modules						
+WebRTC						
+Graphana	Tools					
+Hashicorp Terraform						
+Yarn		Package manager on top of NPM				
+NPM		Package manager for all UI Modules				
+Ansible		TBD				
+Vagrant						
+AKAMAI	Platforms & Infrastructure	CDN				
+FASTLY		CDN (vagrant)				
