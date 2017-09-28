@@ -9,7 +9,7 @@ var radar = new pv.Panel()
 radar.add(pv.Label)
   .left(40)
   .top(78)
-  .text("Zalando Tech Radar — 2017.07")
+  .text("MySale Tech Radar")
   .font("40px sans-serif");
 
 // contact info
@@ -21,7 +21,7 @@ radar.add(pv.Label)
   .font("28px sans-serif")
   .add(pv.Label)
     .top(910)
-    .text("tech-guild-technologists@zalando.de")
+    .text("AlexanderIzumov@mysale.com")
     .textStyle("blue")
     .font("22px monospace")
   .add(pv.Label)

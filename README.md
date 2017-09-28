@@ -1,8 +1,4 @@
-![ZalandoTechRadar icon](logo-medium.jpg)   
-
-.
-
-# Zalando Tech Radar
+# Tech Radar
 
 The **Zalando Tech Radar** is a tool to inspire and support teams to pick the best technologies for new projects. Based on the ideas of [ThoughtWorks](https://www.thoughtworks.com/radar), our Tech Radar sets out the changes in technologies that are interesting in software development: changes that we think our engineering teams should pay attention to and consider using in their projects.
 
